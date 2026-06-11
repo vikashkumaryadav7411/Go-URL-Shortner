@@ -11,6 +11,7 @@ import (
 
 var Ctx = context.Background()
 
+// Creating new client..
 func CreateClient(dbNo int) *redis.Client {
 
 	rdb := redis.NewClient(&redis.Options{
